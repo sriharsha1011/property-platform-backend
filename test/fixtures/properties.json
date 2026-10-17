@@ -1,0 +1,507 @@
+[
+  {
+    "propertyID": "p_1001",
+    "name": "Sunrise Heights 2BHK",
+    "location": {
+      "address": "12, 5th Cross",
+      "city": "Bengaluru",
+      "locality": "HSR Layout",
+      "pincode": "560102",
+      "latitude": 12.9116,
+      "longitude": 77.6474
+    },
+    "price": 8500000,
+    "interiorFeatures": {
+      "bhk": 2,
+      "flooringType": "Vitrified",
+      "furnishing": "Semi-furnished",
+      "style": "Modern",
+      "modularKitchen": true,
+      "areaSqFt": 1100,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1001_1.jpg",
+      "https://example.com/images/p_1001_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1002",
+    "name": "Green Valley 3BHK",
+    "location": {
+      "address": "45, 2nd Main",
+      "city": "Bengaluru",
+      "locality": "Koramangala",
+      "pincode": "560034",
+      "latitude": 12.9352,
+      "longitude": 77.6245
+    },
+    "price": 13500000,
+    "interiorFeatures": {
+      "bhk": 3,
+      "flooringType": "Wooden",
+      "furnishing": "Fully-furnished",
+      "style": "Luxury",
+      "modularKitchen": true,
+      "areaSqFt": 1650,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 3",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1002_1.jpg",
+      "https://example.com/images/p_1002_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1003",
+    "name": "Lake View 1BHK",
+    "location": {
+      "address": "8, Lake Road",
+      "city": "Bengaluru",
+      "locality": "Indiranagar",
+      "pincode": "560038",
+      "latitude": 12.9784,
+      "longitude": 77.6408
+    },
+    "price": 5200000,
+    "interiorFeatures": {
+      "bhk": 1,
+      "flooringType": "Tiles",
+      "furnishing": "Unfurnished",
+      "style": "Minimalist",
+      "modularKitchen": false,
+      "areaSqFt": 620,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1003_1.jpg",
+      "https://example.com/images/p_1003_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1004",
+    "name": "Palm Residency 2BHK",
+    "location": {
+      "address": "27, Palm Street",
+      "city": "Bengaluru",
+      "locality": "Whitefield",
+      "pincode": "560066",
+      "latitude": 12.9698,
+      "longitude": 77.75
+    },
+    "price": 7200000,
+    "interiorFeatures": {
+      "bhk": 2,
+      "flooringType": "Vitrified",
+      "furnishing": "Semi-furnished",
+      "style": "Modern",
+      "modularKitchen": true,
+      "areaSqFt": 1050,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1004_1.jpg",
+      "https://example.com/images/p_1004_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1005",
+    "name": "Royal Orchid 3BHK",
+    "location": {
+      "address": "3, Orchid Lane",
+      "city": "Bengaluru",
+      "locality": "HSR Layout",
+      "pincode": "560102",
+      "latitude": 12.9081,
+      "longitude": 77.6476
+    },
+    "price": 11800000,
+    "interiorFeatures": {
+      "bhk": 3,
+      "flooringType": "Marble",
+      "furnishing": "Fully-furnished",
+      "style": "Traditional",
+      "modularKitchen": true,
+      "areaSqFt": 1500,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 3",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1005_1.jpg",
+      "https://example.com/images/p_1005_2.jpg"
+    ],
+    "availability": false,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1006",
+    "name": "Urban Nest 1BHK",
+    "location": {
+      "address": "19, 1st Cross",
+      "city": "Bengaluru",
+      "locality": "Koramangala",
+      "pincode": "560095",
+      "latitude": 12.9279,
+      "longitude": 77.6271
+    },
+    "price": 6100000,
+    "interiorFeatures": {
+      "bhk": 1,
+      "flooringType": "Wooden",
+      "furnishing": "Fully-furnished",
+      "style": "Minimalist",
+      "modularKitchen": true,
+      "areaSqFt": 700,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1006_1.jpg",
+      "https://example.com/images/p_1006_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1007",
+    "name": "Maple Court 2BHK",
+    "location": {
+      "address": "61, Maple Road",
+      "city": "Bengaluru",
+      "locality": "Indiranagar",
+      "pincode": "560008",
+      "latitude": 12.9719,
+      "longitude": 77.6412
+    },
+    "price": 9400000,
+    "interiorFeatures": {
+      "bhk": 2,
+      "flooringType": "Granite",
+      "furnishing": "Semi-furnished",
+      "style": "Traditional",
+      "modularKitchen": false,
+      "areaSqFt": 1200,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1007_1.jpg",
+      "https://example.com/images/p_1007_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1008",
+    "name": "Skyline Towers 4BHK",
+    "location": {
+      "address": "Plot 9, Ring Road",
+      "city": "Bengaluru",
+      "locality": "Whitefield",
+      "pincode": "560067",
+      "latitude": 12.9855,
+      "longitude": 77.731
+    },
+    "price": 21000000,
+    "interiorFeatures": {
+      "bhk": 4,
+      "flooringType": "Marble",
+      "furnishing": "Fully-furnished",
+      "style": "Luxury",
+      "modularKitchen": true,
+      "areaSqFt": 2400,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 3",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 4",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1008_1.jpg",
+      "https://example.com/images/p_1008_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1009",
+    "name": "Cozy Corner 2BHK",
+    "location": {
+      "address": "14, Church Street",
+      "city": "Bengaluru",
+      "locality": "Jayanagar",
+      "pincode": "560041",
+      "latitude": 12.9299,
+      "longitude": 77.5838
+    },
+    "price": 6800000,
+    "interiorFeatures": {
+      "bhk": 2,
+      "flooringType": "Tiles",
+      "furnishing": "Unfurnished",
+      "style": "Modern",
+      "modularKitchen": false,
+      "areaSqFt": 980,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1009_1.jpg",
+      "https://example.com/images/p_1009_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "propertyID": "p_1010",
+    "name": "Blue Pearl 3BHK",
+    "location": {
+      "address": "33, Garden Road",
+      "city": "Bengaluru",
+      "locality": "Jayanagar",
+      "pincode": "560011",
+      "latitude": 12.925,
+      "longitude": 77.5938
+    },
+    "price": 10200000,
+    "interiorFeatures": {
+      "bhk": 3,
+      "flooringType": "Vitrified",
+      "furnishing": "Semi-furnished",
+      "style": "Modern",
+      "modularKitchen": true,
+      "areaSqFt": 1400,
+      "rooms": [
+        {
+          "type": "Living Room",
+          "lengthFt": 16,
+          "widthFt": 13
+        },
+        {
+          "type": "Kitchen",
+          "lengthFt": 10,
+          "widthFt": 9
+        },
+        {
+          "type": "Bedroom 1",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 2",
+          "lengthFt": 12,
+          "widthFt": 11
+        },
+        {
+          "type": "Bedroom 3",
+          "lengthFt": 12,
+          "widthFt": 11
+        }
+      ]
+    },
+    "images": [
+      "https://example.com/images/p_1010_1.jpg",
+      "https://example.com/images/p_1010_2.jpg"
+    ],
+    "availability": true,
+    "createdAt": "2026-10-12"
+  }
+]

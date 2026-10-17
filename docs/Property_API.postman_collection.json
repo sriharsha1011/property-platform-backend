@@ -1,0 +1,672 @@
+{
+  "info": {
+    "name": "Property API - Auth, Properties, Preferences, Search",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "propertyID",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "1. Signup",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/signup",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "signup"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"username\": \"new_user\",\n  \"email\": \"new@example.com\",\n  \"password\": \"Passw0rd123\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "if (data.token) { pm.collectionVariables.set('token', data.token); }"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Login (sample user from seed)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/login",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "login"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"harsha@example.com\",\n  \"password\": \"Test@1234\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const data = pm.response.json();",
+              "if (data.token) { pm.collectionVariables.set('token', data.token); }"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Me (needs token)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/me",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "me"
+          ]
+        },
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "4. Logout (needs token)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/logout",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "logout"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}"
+        },
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "5. Me again after logout (should be 401)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/me",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "auth",
+            "me"
+          ]
+        },
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "{{token}}",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "5. Search by budget + interior",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties?minPrice=5000000&maxPrice=10000000&minBhk=2&modularKitchen=true",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties"
+          ],
+          "query": [
+            {
+              "key": "minPrice",
+              "value": "5000000"
+            },
+            {
+              "key": "maxPrice",
+              "value": "10000000"
+            },
+            {
+              "key": "minBhk",
+              "value": "2"
+            },
+            {
+              "key": "modularKitchen",
+              "value": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "6. Recommended for me",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/recommended",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "recommended"
+          ]
+        }
+      }
+    },
+    {
+      "name": "7. Create property",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Test Flat\",\n  \"price\": 5000000,\n  \"location\": {\n    \"address\": \"1 Main Rd\",\n    \"city\": \"Bengaluru\",\n    \"locality\": \"Indiranagar\",\n    \"pincode\": \"560038\"\n  },\n  \"interiorFeatures\": {\n    \"bhk\": 2,\n    \"flooringType\": \"Vitrified\",\n    \"furnishing\": \"Semi-furnished\",\n    \"areaSqFt\": 1000,\n    \"modularKitchen\": true\n  }\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const d = pm.response.json();",
+              "if (d.data) { pm.collectionVariables.set('propertyID', d.data.propertyID); }"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "8. Get property",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/{{propertyID}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "{{propertyID}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "9. Update property",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/{{propertyID}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "{{propertyID}}"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"price\": 5200000,\n  \"availability\": true\n}"
+        }
+      }
+    },
+    {
+      "name": "10. Upload images (pick files)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/{{propertyID}}/images",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "{{propertyID}}",
+            "images"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "images",
+              "type": "file",
+              "src": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "11. Remove image",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/{{propertyID}}/images",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "{{propertyID}}",
+            "images"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"image\": \"/uploads/properties/<file name>\"\n}"
+        }
+      }
+    },
+    {
+      "name": "12. Delete property",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/properties/{{propertyID}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "properties",
+            "{{propertyID}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "13. Save preferences",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/preferences",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "preferences"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"preferredLocation\": [\n    \"HSR Layout\",\n    \"Indiranagar\"\n  ],\n  \"budgetRange\": {\n    \"min\": 5000000,\n    \"max\": 10000000\n  },\n  \"interiorPreferences\": {\n    \"minBhk\": 2,\n    \"furnishing\": [\n      \"Semi-furnished\"\n    ],\n    \"modularKitchen\": true\n  }\n}"
+        }
+      }
+    },
+    {
+      "name": "14. My preferences",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/preferences/me",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "preferences",
+            "me"
+          ]
+        }
+      }
+    },
+    {
+      "name": "15. Update preferences",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/preferences/me",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "preferences",
+            "me"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"budgetRange\": {\n    \"min\": 4000000,\n    \"max\": 9000000\n  }\n}"
+        }
+      }
+    },
+    {
+      "name": "16. Delete preferences",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/preferences/me",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "preferences",
+            "me"
+          ]
+        }
+      }
+    },
+    {
+      "name": "17. Search: budget + interior wishes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/search?minPrice=5000000&maxPrice=10000000&minBhk=2&furnishing=Semi-furnished&modularKitchen=true",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "minPrice",
+              "value": "5000000"
+            },
+            {
+              "key": "maxPrice",
+              "value": "10000000"
+            },
+            {
+              "key": "minBhk",
+              "value": "2"
+            },
+            {
+              "key": "furnishing",
+              "value": "Semi-furnished"
+            },
+            {
+              "key": "modularKitchen",
+              "value": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "18. Search: my saved preferences",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/search?usePreferences=true",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "usePreferences",
+              "value": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "19. Search: strict + cheapest first",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{token}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/search?usePreferences=true&strict=true&sort=price_asc",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "usePreferences",
+              "value": "true"
+            },
+            {
+              "key": "strict",
+              "value": "true"
+            },
+            {
+              "key": "sort",
+              "value": "price_asc"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "20. Search: by location, A to Z",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/search?maxPrice=12000000&locality=Koramangala,Indiranagar&sort=location",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "maxPrice",
+              "value": "12000000"
+            },
+            {
+              "key": "locality",
+              "value": "Koramangala,Indiranagar"
+            },
+            {
+              "key": "sort",
+              "value": "location"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
