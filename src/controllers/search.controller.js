@@ -28,6 +28,8 @@ exports.search = async (req, res) => {
     sort: request.sort,
     strict: request.strict,
     criteria: request.criteria,
+    city: request.city,
+    state: request.state,
     // true when more than CANDIDATE_LIMIT properties passed the budget filter. Narrow the budget to see all.
     truncated: candidates.length === CANDIDATE_LIMIT,
   });

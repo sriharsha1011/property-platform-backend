@@ -248,6 +248,14 @@ Examples:
 /api/search?maxPrice=12000000&locality=Koramangala,Indiranagar&sort=location
 ```
 
+## Locations for all of India, photos and the map (final update)
+
+- `GET /api/locations/suggest?q=hyd&limit=8` returns place suggestions for the search box: Indian cities (list in `src/data/indiaCities.json`, 87 cities in 30+ states) plus areas that already have homes in the database. Each item has `type` (`city` or `locality`), `name`, `city`, `state`, `lat`, `lng` (and `homes` for areas). The list grows by itself when homes are added in a new area.
+- `GET /api/search` also accepts `city=` and `state=`. A city or area in `locality=` is used as a wish (it adds score) and with `strict=true` it must match the area or the city.
+- A home's `location` now has an optional `state`, plus `latitude` and `longitude` that the map uses.
+- Each home has `images` (a list). Sample homes have 4 pictures each, served from `/uploads/seed/...`. Real photos are added with `POST /api/properties/:id/images`.
+- `npm run seed` puts 55 sample homes (19 cities) into MongoDB. It is safe to run many times.
+
 ## Next tasks
 
 The front end that uses these APIs.

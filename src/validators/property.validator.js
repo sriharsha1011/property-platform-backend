@@ -39,6 +39,10 @@ function validateProperty(body, { partial = false } = {}) {
         if (!isStr(l[k])) add(`location.${k}`, "is required and must be text");
         else loc[k] = l[k].trim();
       }
+      if (l.state !== undefined) {
+        if (!isStr(l.state, 1, 60)) add("location.state", "must be text");
+        else loc.state = l.state.trim();
+      }
       if (l.pincode !== undefined) {
         if (!/^\d{6}$/.test(String(l.pincode))) add("location.pincode", "must be 6 digits");
         else loc.pincode = String(l.pincode);

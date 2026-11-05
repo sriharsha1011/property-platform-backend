@@ -667,6 +667,60 @@
           ]
         }
       }
+    },
+    {
+      "name": "12. Location suggestions (typeahead)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/locations/suggest?q=hyd",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "locations",
+            "suggest"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "hyd"
+            },
+            {
+              "key": "limit",
+              "value": "8",
+              "disabled": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "13. Search homes in a city",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/search?city=Pune&sort=price_asc",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "search"
+          ],
+          "query": [
+            {
+              "key": "city",
+              "value": "Pune"
+            },
+            {
+              "key": "sort",
+              "value": "price_asc"
+            }
+          ]
+        }
+      }
     }
   ]
 }

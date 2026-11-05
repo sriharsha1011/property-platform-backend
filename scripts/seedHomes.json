@@ -1,0 +1,2897 @@
+[
+ {
+  "propertyID": "p_1001",
+  "name": "Sunrise Heights 2BHK",
+  "location": {
+   "address": "12, 5th Cross",
+   "city": "Bengaluru",
+   "locality": "HSR Layout",
+   "pincode": "560102",
+   "latitude": 12.9116,
+   "longitude": 77.6474,
+   "state": "Karnataka"
+  },
+  "price": 8500000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1100,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1002",
+  "name": "Green Valley 3BHK",
+  "location": {
+   "address": "45, 2nd Main",
+   "city": "Bengaluru",
+   "locality": "Koramangala",
+   "pincode": "560034",
+   "latitude": 12.9352,
+   "longitude": 77.6245,
+   "state": "Karnataka"
+  },
+  "price": 13500000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Wooden",
+   "furnishing": "Fully-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 1650,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1003",
+  "name": "Lake View 1BHK",
+  "location": {
+   "address": "8, Lake Road",
+   "city": "Bengaluru",
+   "locality": "Indiranagar",
+   "pincode": "560038",
+   "latitude": 12.9784,
+   "longitude": 77.6408,
+   "state": "Karnataka"
+  },
+  "price": 5200000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": false,
+   "areaSqFt": 620,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1004",
+  "name": "Palm Residency 2BHK",
+  "location": {
+   "address": "27, Palm Street",
+   "city": "Bengaluru",
+   "locality": "Whitefield",
+   "pincode": "560066",
+   "latitude": 12.9698,
+   "longitude": 77.75,
+   "state": "Karnataka"
+  },
+  "price": 7200000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1050,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1005",
+  "name": "Royal Orchid 3BHK",
+  "location": {
+   "address": "3, Orchid Lane",
+   "city": "Bengaluru",
+   "locality": "HSR Layout",
+   "pincode": "560102",
+   "latitude": 12.9081,
+   "longitude": 77.6476,
+   "state": "Karnataka"
+  },
+  "price": 11800000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Marble",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1500,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1006",
+  "name": "Urban Nest 1BHK",
+  "location": {
+   "address": "19, 1st Cross",
+   "city": "Bengaluru",
+   "locality": "Koramangala",
+   "pincode": "560095",
+   "latitude": 12.9279,
+   "longitude": 77.6271,
+   "state": "Karnataka"
+  },
+  "price": 6100000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Wooden",
+   "furnishing": "Fully-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 700,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1007",
+  "name": "Maple Court 2BHK",
+  "location": {
+   "address": "61, Maple Road",
+   "city": "Bengaluru",
+   "locality": "Indiranagar",
+   "pincode": "560008",
+   "latitude": 12.9719,
+   "longitude": 77.6412,
+   "state": "Karnataka"
+  },
+  "price": 9400000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Granite",
+   "furnishing": "Semi-furnished",
+   "style": "Traditional",
+   "modularKitchen": false,
+   "areaSqFt": 1200,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1008",
+  "name": "Skyline Towers 4BHK",
+  "location": {
+   "address": "Plot 9, Ring Road",
+   "city": "Bengaluru",
+   "locality": "Whitefield",
+   "pincode": "560067",
+   "latitude": 12.9855,
+   "longitude": 77.731,
+   "state": "Karnataka"
+  },
+  "price": 21000000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Marble",
+   "furnishing": "Fully-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 2400,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1009",
+  "name": "Cozy Corner 2BHK",
+  "location": {
+   "address": "14, Church Street",
+   "city": "Bengaluru",
+   "locality": "Jayanagar",
+   "pincode": "560041",
+   "latitude": 12.9299,
+   "longitude": 77.5838,
+   "state": "Karnataka"
+  },
+  "price": 6800000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": false,
+   "areaSqFt": 980,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1010",
+  "name": "Blue Pearl 3BHK",
+  "location": {
+   "address": "33, Garden Road",
+   "city": "Bengaluru",
+   "locality": "Jayanagar",
+   "pincode": "560011",
+   "latitude": 12.925,
+   "longitude": 77.5938,
+   "state": "Karnataka"
+  },
+  "price": 10200000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1400,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1011",
+  "name": "Green Meadows 2BHK",
+  "location": {
+   "address": "72, Temple Road",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "locality": "Andheri West",
+   "pincode": "400053",
+   "latitude": 19.13287,
+   "longitude": 72.83012
+  },
+  "price": 19980000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": false,
+   "areaSqFt": 1114,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1012",
+  "name": "Lake View 3BHK",
+  "location": {
+   "address": "15, Station Road",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "locality": "Andheri West",
+   "pincode": "400053",
+   "latitude": 19.13697,
+   "longitude": 72.8271
+  },
+  "price": 24110000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Vitrified",
+   "furnishing": "Unfurnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 1542,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 14,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1013",
+  "name": "Heritage Park 3BHK",
+  "location": {
+   "address": "65, Park Street",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "locality": "Powai",
+   "pincode": "400076",
+   "latitude": 19.11944,
+   "longitude": 72.9043
+  },
+  "price": 31870000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Marble",
+   "furnishing": "Semi-furnished",
+   "style": "Luxury",
+   "modularKitchen": false,
+   "areaSqFt": 1633,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 14,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1014",
+  "name": "Blue Orchid 2BHK",
+  "location": {
+   "address": "10, Garden Lane",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "locality": "Bandra West",
+   "pincode": "400050",
+   "latitude": 19.05635,
+   "longitude": 72.82766
+  },
+  "price": 24720000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Luxury",
+   "modularKitchen": false,
+   "areaSqFt": 1112,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1015",
+  "name": "Lake View 4BHK",
+  "location": {
+   "address": "96, 2nd Main",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "locality": "Bandra West",
+   "pincode": "400050",
+   "latitude": 19.05878,
+   "longitude": 72.83283
+  },
+  "price": 40910000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Marble",
+   "furnishing": "Fully-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 2263,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 13,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 11,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1016",
+  "name": "Blue Orchid 3BHK",
+  "location": {
+   "address": "77, 2nd Main",
+   "city": "Delhi",
+   "state": "Delhi",
+   "locality": "Dwarka",
+   "pincode": "110075",
+   "latitude": 28.5902,
+   "longitude": 77.04203
+  },
+  "price": 25340000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 1598,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1017",
+  "name": "Sky Terrace 3BHK",
+  "location": {
+   "address": "58, 2nd Main",
+   "city": "Delhi",
+   "state": "Delhi",
+   "locality": "Dwarka",
+   "pincode": "110075",
+   "latitude": 28.58898,
+   "longitude": 77.04681
+  },
+  "price": 26600000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Granite",
+   "furnishing": "Fully-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1625,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1018",
+  "name": "Blue Orchid 2BHK",
+  "location": {
+   "address": "63, Park Street",
+   "city": "Delhi",
+   "state": "Delhi",
+   "locality": "Saket",
+   "pincode": "110017",
+   "latitude": 28.52119,
+   "longitude": 77.20342
+  },
+  "price": 11840000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 930,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1019",
+  "name": "Heritage Park 3BHK",
+  "location": {
+   "address": "71, Garden Lane",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "locality": "Gachibowli",
+   "pincode": "500032",
+   "latitude": 17.44012,
+   "longitude": 78.34999
+  },
+  "price": 11340000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Wooden",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": false,
+   "areaSqFt": 1417,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1020",
+  "name": "Blue Orchid 2BHK",
+  "location": {
+   "address": "94, Park Street",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "locality": "Madhapur",
+   "pincode": "500081",
+   "latitude": 17.45194,
+   "longitude": 78.39042
+  },
+  "price": 8650000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 1162,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1021",
+  "name": "Cedar Enclave 2BHK",
+  "location": {
+   "address": "44, MG Road",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "locality": "Kondapur",
+   "pincode": "500084",
+   "latitude": 17.47241,
+   "longitude": 78.36777
+  },
+  "price": 8350000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Granite",
+   "furnishing": "Fully-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1127,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 11,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1022",
+  "name": "Cedar Enclave 4BHK",
+  "location": {
+   "address": "15, Station Road",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "locality": "Adyar",
+   "pincode": "600020",
+   "latitude": 13.0032,
+   "longitude": 80.25361
+  },
+  "price": 17410000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Vitrified",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": false,
+   "areaSqFt": 2003,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 10,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1023",
+  "name": "Maple Heights 1BHK",
+  "location": {
+   "address": "60, Ring Road",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "locality": "Velachery",
+   "pincode": "600042",
+   "latitude": 12.98217,
+   "longitude": 80.22123
+  },
+  "price": 5250000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 568,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1024",
+  "name": "Cedar Enclave 3BHK",
+  "location": {
+   "address": "68, Station Road",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "locality": "Anna Nagar",
+   "pincode": "600040",
+   "latitude": 13.08544,
+   "longitude": 80.21237
+  },
+  "price": 13980000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1598,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 10,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1025",
+  "name": "Lotus Greens 2BHK",
+  "location": {
+   "address": "37, Temple Road",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "locality": "Kothrud",
+   "pincode": "411038",
+   "latitude": 18.50747,
+   "longitude": 73.81016
+  },
+  "price": 9590000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1050,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1026",
+  "name": "Cedar Enclave 3BHK",
+  "location": {
+   "address": "86, Park Street",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "locality": "Hinjewadi",
+   "pincode": "411057",
+   "latitude": 18.58834,
+   "longitude": 73.74196
+  },
+  "price": 13840000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": false,
+   "areaSqFt": 1617,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1027",
+  "name": "Maple Heights 1BHK",
+  "location": {
+   "address": "13, Ring Road",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "locality": "Hinjewadi",
+   "pincode": "411057",
+   "latitude": 18.59013,
+   "longitude": 73.7376
+  },
+  "price": 6500000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Wooden",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 675,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 17,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1028",
+  "name": "Silver Oak 2BHK",
+  "location": {
+   "address": "88, Garden Lane",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "locality": "Baner",
+   "pincode": "411045",
+   "latitude": 18.56257,
+   "longitude": 73.78605
+  },
+  "price": 13050000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 1239,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1029",
+  "name": "Orchid Residency 3BHK",
+  "location": {
+   "address": "17, Temple Road",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "locality": "Baner",
+   "pincode": "411045",
+   "latitude": 18.55509,
+   "longitude": 73.79075
+  },
+  "price": 12720000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Vitrified",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1621,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1030",
+  "name": "Blue Orchid 1BHK",
+  "location": {
+   "address": "66, Ring Road",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "locality": "Salt Lake",
+   "pincode": "700091",
+   "latitude": 22.58412,
+   "longitude": 88.41578
+  },
+  "price": 3650000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Wooden",
+   "furnishing": "Semi-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 645,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1031",
+  "name": "Silver Oak 1BHK",
+  "location": {
+   "address": "66, Park Street",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "locality": "New Town",
+   "pincode": "700156",
+   "latitude": 22.5815,
+   "longitude": 88.47886
+  },
+  "price": 4440000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 720,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1032",
+  "name": "Sky Terrace 3BHK",
+  "location": {
+   "address": "90, Park Street",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "locality": "Satellite",
+   "pincode": "380015",
+   "latitude": 23.02636,
+   "longitude": 72.51448
+  },
+  "price": 9840000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Vitrified",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 1627,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1033",
+  "name": "Cedar Enclave 2BHK",
+  "location": {
+   "address": "27, 2nd Main",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "locality": "Bopal",
+   "pincode": "380058",
+   "latitude": 23.03304,
+   "longitude": 72.46104
+  },
+  "price": 6500000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 1262,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1034",
+  "name": "Orchid Residency 3BHK",
+  "location": {
+   "address": "94, Station Road",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "locality": "Bopal",
+   "pincode": "380058",
+   "latitude": 23.03415,
+   "longitude": 72.46135
+  },
+  "price": 9670000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Luxury",
+   "modularKitchen": false,
+   "areaSqFt": 1810,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 13,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1035",
+  "name": "Cedar Enclave 4BHK",
+  "location": {
+   "address": "4, Ring Road",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "locality": "Vaishali Nagar",
+   "pincode": "302021",
+   "latitude": 26.91265,
+   "longitude": 75.73796
+  },
+  "price": 13200000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Tiles",
+   "furnishing": "Fully-furnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 2351,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 14,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1036",
+  "name": "Sky Terrace 1BHK",
+  "location": {
+   "address": "31, Ring Road",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "locality": "Vaishali Nagar",
+   "pincode": "302021",
+   "latitude": 26.9136,
+   "longitude": 75.73968
+  },
+  "price": 4110000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": false,
+   "areaSqFt": 715,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1037",
+  "name": "Blue Orchid 1BHK",
+  "location": {
+   "address": "36, Ring Road",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "locality": "Malviya Nagar",
+   "pincode": "302017",
+   "latitude": 26.8498,
+   "longitude": 75.80774
+  },
+  "price": 2880000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Marble",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 519,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1038",
+  "name": "Orchid Residency 2BHK",
+  "location": {
+   "address": "51, 2nd Main",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "locality": "Malviya Nagar",
+   "pincode": "302017",
+   "latitude": 26.85633,
+   "longitude": 75.81344
+  },
+  "price": 5830000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Fully-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 1255,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1039",
+  "name": "Blue Orchid 2BHK",
+  "location": {
+   "address": "53, Park Street",
+   "city": "Kochi",
+   "state": "Kerala",
+   "locality": "Edappally",
+   "pincode": "682024",
+   "latitude": 10.02792,
+   "longitude": 76.30783
+  },
+  "price": 7100000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1096,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1040",
+  "name": "Riverside Apartments 2BHK",
+  "location": {
+   "address": "11, Park Street",
+   "city": "Kochi",
+   "state": "Kerala",
+   "locality": "Edappally",
+   "pincode": "682024",
+   "latitude": 10.0295,
+   "longitude": 76.31055
+  },
+  "price": 7830000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": false,
+   "areaSqFt": 983,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1041",
+  "name": "Riverside Apartments 4BHK",
+  "location": {
+   "address": "98, 2nd Main",
+   "city": "Kochi",
+   "state": "Kerala",
+   "locality": "Kakkanad",
+   "pincode": "682030",
+   "latitude": 10.01706,
+   "longitude": 76.34019
+  },
+  "price": 14600000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Marble",
+   "furnishing": "Semi-furnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 2130,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 13,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1042",
+  "name": "Cedar Enclave 2BHK",
+  "location": {
+   "address": "52, MG Road",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "locality": "MVP Colony",
+   "pincode": "530017",
+   "latitude": 17.73534,
+   "longitude": 83.32729
+  },
+  "price": 6170000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Marble",
+   "furnishing": "Semi-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1246,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1043",
+  "name": "Orchid Residency 3BHK",
+  "location": {
+   "address": "74, 2nd Main",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "locality": "Madhurawada",
+   "pincode": "530048",
+   "latitude": 17.8091,
+   "longitude": 83.379
+  },
+  "price": 7690000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Granite",
+   "furnishing": "Semi-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1633,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 11,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1044",
+  "name": "Silver Oak 3BHK",
+  "location": {
+   "address": "53, Ring Road",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "locality": "Madhurawada",
+   "pincode": "530048",
+   "latitude": 17.80557,
+   "longitude": 83.38063
+  },
+  "price": 8760000,
+  "interiorFeatures": {
+   "bhk": 3,
+   "flooringType": "Marble",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": false,
+   "areaSqFt": 1605,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 17,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 11,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1045",
+  "name": "Heritage Park 2BHK",
+  "location": {
+   "address": "89, MG Road",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "locality": "Air Bypass Road",
+   "pincode": "517501",
+   "latitude": 13.64053,
+   "longitude": 79.43177
+  },
+  "price": 3660000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Semi-furnished",
+   "style": "Luxury",
+   "modularKitchen": false,
+   "areaSqFt": 1024,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 11,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1046",
+  "name": "Cedar Enclave 1BHK",
+  "location": {
+   "address": "57, Ring Road",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "locality": "Sector 22",
+   "pincode": "160022",
+   "latitude": 30.73411,
+   "longitude": 76.7708
+  },
+  "price": 5830000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Wooden",
+   "furnishing": "Unfurnished",
+   "style": "Modern",
+   "modularKitchen": true,
+   "areaSqFt": 601,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 13
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-modern.svg",
+   "/uploads/seed/bedroom-modern.svg",
+   "/uploads/seed/kitchen-modern.svg",
+   "/uploads/seed/balcony-modern.svg"
+  ],
+  "availability": false
+ },
+ {
+  "propertyID": "p_1047",
+  "name": "Heritage Park 2BHK",
+  "location": {
+   "address": "33, MG Road",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "locality": "Sector 22",
+   "pincode": "160022",
+   "latitude": 30.73568,
+   "longitude": 76.77564
+  },
+  "price": 8950000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Minimalist",
+   "modularKitchen": true,
+   "areaSqFt": 1164,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 11,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 14,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-minimalist.svg",
+   "/uploads/seed/bedroom-minimalist.svg",
+   "/uploads/seed/kitchen-minimalist.svg",
+   "/uploads/seed/balcony-minimalist.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1048",
+  "name": "Lotus Greens 4BHK",
+  "location": {
+   "address": "66, MG Road",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "locality": "Gomti Nagar",
+   "pincode": "226010",
+   "latitude": 26.85064,
+   "longitude": 81.00476
+  },
+  "price": 11460000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Wooden",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 2248,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 11,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 12,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 13,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 10,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1049",
+  "name": "Lake View 2BHK",
+  "location": {
+   "address": "52, MG Road",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "locality": "Gomti Nagar",
+   "pincode": "226010",
+   "latitude": 26.8507,
+   "longitude": 81.00479
+  },
+  "price": 7350000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Marble",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1194,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1050",
+  "name": "Orchid Residency 2BHK",
+  "location": {
+   "address": "87, Ring Road",
+   "city": "Gurugram",
+   "state": "Haryana",
+   "locality": "Sector 56",
+   "pincode": "122011",
+   "latitude": 28.42123,
+   "longitude": 77.10559
+  },
+  "price": 16340000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Vitrified",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1215,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 15,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1051",
+  "name": "Palm Court 1BHK",
+  "location": {
+   "address": "92, Temple Road",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "locality": "Vijay Nagar",
+   "pincode": "452010",
+   "latitude": 22.75087,
+   "longitude": 75.89403
+  },
+  "price": 2620000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 541,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 14,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 13,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1052",
+  "name": "Maple Heights 1BHK",
+  "location": {
+   "address": "48, Park Street",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "locality": "Patia",
+   "pincode": "751024",
+   "latitude": 20.35368,
+   "longitude": 85.82263
+  },
+  "price": 2560000,
+  "interiorFeatures": {
+   "bhk": 1,
+   "flooringType": "Vitrified",
+   "furnishing": "Semi-furnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 618,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 10,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 12
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1053",
+  "name": "Blue Orchid 4BHK",
+  "location": {
+   "address": "25, MG Road",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "locality": "Patia",
+   "pincode": "751024",
+   "latitude": 20.35742,
+   "longitude": 85.82091
+  },
+  "price": 12130000,
+  "interiorFeatures": {
+   "bhk": 4,
+   "flooringType": "Vitrified",
+   "furnishing": "Fully-furnished",
+   "style": "Traditional",
+   "modularKitchen": false,
+   "areaSqFt": 2194,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 18,
+     "widthFt": 11
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 8,
+     "widthFt": 8
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 13,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 3",
+     "lengthFt": 12,
+     "widthFt": 11
+    },
+    {
+     "type": "Bedroom 4",
+     "lengthFt": 13,
+     "widthFt": 10
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1054",
+  "name": "Heritage Park 2BHK",
+  "location": {
+   "address": "71, Park Street",
+   "city": "Coimbatore",
+   "state": "Tamil Nadu",
+   "locality": "RS Puram",
+   "pincode": "641002",
+   "latitude": 11.00429,
+   "longitude": 76.94941
+  },
+  "price": 6470000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Tiles",
+   "furnishing": "Unfurnished",
+   "style": "Traditional",
+   "modularKitchen": true,
+   "areaSqFt": 1179,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 12
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 9
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 10,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-traditional.svg",
+   "/uploads/seed/bedroom-traditional.svg",
+   "/uploads/seed/kitchen-traditional.svg",
+   "/uploads/seed/balcony-traditional.svg"
+  ],
+  "availability": true
+ },
+ {
+  "propertyID": "p_1055",
+  "name": "Orchid Residency 2BHK",
+  "location": {
+   "address": "37, Station Road",
+   "city": "Panaji",
+   "state": "Goa",
+   "locality": "Miramar",
+   "pincode": "403001",
+   "latitude": 15.47814,
+   "longitude": 73.80803
+  },
+  "price": 9460000,
+  "interiorFeatures": {
+   "bhk": 2,
+   "flooringType": "Granite",
+   "furnishing": "Unfurnished",
+   "style": "Luxury",
+   "modularKitchen": true,
+   "areaSqFt": 1055,
+   "rooms": [
+    {
+     "type": "Living Room",
+     "lengthFt": 16,
+     "widthFt": 14
+    },
+    {
+     "type": "Kitchen",
+     "lengthFt": 9,
+     "widthFt": 10
+    },
+    {
+     "type": "Bedroom 1",
+     "lengthFt": 14,
+     "widthFt": 12
+    },
+    {
+     "type": "Bedroom 2",
+     "lengthFt": 10,
+     "widthFt": 11
+    }
+   ]
+  },
+  "images": [
+   "/uploads/seed/living-luxury.svg",
+   "/uploads/seed/bedroom-luxury.svg",
+   "/uploads/seed/kitchen-luxury.svg",
+   "/uploads/seed/balcony-luxury.svg"
+  ],
+  "availability": true
+ }
+]

@@ -38,12 +38,12 @@ function fromRequest(q, prefs) {
     style: csv(q.style).length ? csv(q.style) : ip.style || [],
     modularKitchen: modularKitchen !== undefined ? modularKitchen : ip.modularKitchen,
   };
-  return { criteria, city: q.city ? String(q.city).trim() : undefined, available: available ?? true, strict: strict === true, minScore: minScore ?? 0, sort, page, limit };
+  return { criteria, city: q.city ? String(q.city).trim() : undefined, state: q.state ? String(q.state).trim() : undefined, available: available ?? true, strict: strict === true, minScore: minScore ?? 0, sort, page, limit };
 }
 
 // MongoDB filter. Budget, availability and city always remove properties.
 // The other wishes only remove properties when strict=true; otherwise they only change the ranking.
-function toFilter({ criteria: c, city, available, strict }) {
+function toFilter({ criteria: c, city, state, available, strict }) {
   const filter = { availability: available };
   if (c.budget.min !== undefined || c.budget.max !== undefined) {
     filter.price = {};
@@ -51,8 +51,9 @@ function toFilter({ criteria: c, city, available, strict }) {
     if (c.budget.max !== undefined) filter.price.$lte = c.budget.max;
   }
   if (city) filter["location.city"] = anyOf([city]);
+  if (state) filter["location.state"] = anyOf([state]);
   if (strict) {
-    if (c.locality.length) filter["location.locality"] = anyOf(c.locality);
+    if (c.locality.length) filter.$or = [{ "location.locality": anyOf(c.locality) }, { "location.city": anyOf(c.locality) }];
     if (c.bhk !== undefined) filter["interiorFeatures.bhk"] = c.bhk;
     else if (c.minBhk !== undefined) filter["interiorFeatures.bhk"] = { $gte: c.minBhk };
     if (c.furnishing.length) filter["interiorFeatures.furnishing"] = { $in: c.furnishing };

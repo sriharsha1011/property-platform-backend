@@ -9,6 +9,8 @@ const WEIGHTS = { locality: 25, bhk: 20, furnishing: 15, flooring: 10, style: 10
 const same = (a, b) => String(a ?? "").toLowerCase() === String(b ?? "").toLowerCase();
 const inList = (list, v) => list.some((x) => same(x, v));
 
+// (A wish like "Hyderabad" matches the city name too, so a whole city can be a wish, not only an area.)
+
 // A cheaper property inside the budget scores a bit higher. Inside the budget it never gets less than 40% of the points.
 function budgetFraction(price, { min, max }) {
   if (max === undefined) return 1;
@@ -32,7 +34,7 @@ function scoreProperty(p, c) {
     (fraction > 0 ? matched : missed).push(key);
   };
 
-  add("locality", c.locality.length > 0, inList(c.locality, p.location?.locality) ? 1 : 0);
+  add("locality", c.locality.length > 0, inList(c.locality, p.location?.locality) || inList(c.locality, p.location?.city) ? 1 : 0);
   add("bhk", c.bhk !== undefined || c.minBhk !== undefined, c.bhk !== undefined ? (f.bhk === c.bhk ? 1 : 0) : f.bhk >= c.minBhk ? 1 : 0);
   add("furnishing", c.furnishing.length > 0, c.furnishing.includes(f.furnishing) ? 1 : 0);
   add("flooring", c.flooringType.length > 0, inList(c.flooringType, f.flooringType) ? 1 : 0);

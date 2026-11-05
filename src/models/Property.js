@@ -6,6 +6,7 @@ const locationSchema = new Schema(
   {
     address: { type: String, required: true, trim: true },
     city: { type: String, required: true, trim: true },
+    state: { type: String, trim: true },
     locality: { type: String, required: true, trim: true },
     pincode: { type: String, match: /^\d{6}$/ },
     latitude: { type: Number, min: -90, max: 90 },

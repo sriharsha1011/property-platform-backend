@@ -1,4 +1,5 @@
 // Builds the Express app (no server start here, so it is easy to test)
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
@@ -18,6 +19,8 @@ if (env.nodeEnv !== "test") app.use(morgan("dev"));
 app.get("/", (req, res) => {
   res.json({ name: "Property Platform API", version: "1.0.0", health: "/api/health" });
 });
+// Sample photos that come with the project (see scripts/seed.js)
+app.use("/uploads/seed", express.static(path.join(__dirname, "..", "seed-images"), { index: false, dotfiles: "ignore" }));
 // Uploaded images are public files. No folder listing, no hidden files.
 app.use(
   "/uploads",

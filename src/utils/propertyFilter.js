@@ -40,6 +40,7 @@ function fromQuery(q) {
   // ----- place, availability, name -----
   if (csv(q.locality).length) filter["location.locality"] = anyOf(csv(q.locality));
   if (q.city) filter["location.city"] = anyOf([String(q.city).trim()]);
+  if (q.state) filter["location.state"] = anyOf([String(q.state).trim()]);
   const available = bool(q, "available", errors);
   if (available !== undefined) filter.availability = available;
   if (q.q) filter.name = { $regex: String(q.q).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), $options: "i" };

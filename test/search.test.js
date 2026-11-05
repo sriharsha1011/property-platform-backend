@@ -12,10 +12,12 @@ const prefService = require("../src/services/preference.service");
 const { signToken } = require("../src/utils/token");
 const { rank, scoreProperty, budgetFraction } = require("../src/utils/searchRank");
 const seed = require("./fixtures/properties.json");
+const { toFilter, fromRequest } = require("../src/utils/searchCriteria");
 
 // tiny Mongo-style matcher ($gte, $lte, $in, $regex, dotted paths, equality)
 const getPath = (o, p) => p.split(".").reduce((x, k) => (x == null ? undefined : x[k]), o);
 const matches = (doc, filter) => Object.entries(filter).every(([k, c]) => {
+  if (k === "$or") return c.some((f) => matches(doc, f));
   const v = getPath(doc, k);
   if (c && typeof c === "object") {
     if ("$gte" in c && !(v >= c.$gte)) return false;
@@ -163,4 +165,12 @@ test("bad search values give 400", async () => {
 test("regex text and operator objects are harmless", async () => {
   assert.equal((await get("?locality=(a%2B)%2B%24&flooringType=.*&strict=true")).status, 200);
   assert.equal((await get("?price[$gt]=0")).status, 200);
+});
+
+test("a city name works as an area wish (score and strict filter)", () => {
+  const hyd = { propertyID: "x", price: 1, availability: true, location: { locality: "Gachibowli", city: "Hyderabad" }, interiorFeatures: {} };
+  assert.equal(scoreProperty(hyd, { ...emptyC(), locality: ["hyderabad"] }).score, 100);
+  const f = toFilter(fromRequest({ locality: "Hyderabad", strict: "true" }));
+  assert.ok(matches(hyd, f));
+  assert.ok(!matches({ ...P("p_1001"), availability: true }, f));
 });

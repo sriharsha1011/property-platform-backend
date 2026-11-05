@@ -30,5 +30,20 @@ exports.addImages = (propertyID, urls) =>
 exports.removeImage = (propertyID, url) =>
   Property.findOneAndUpdate({ propertyID }, { $pull: { images: url } }, { returnDocument: "after" }).select(noId).lean();
 
+// Every locality that has homes, with its city, state and an average position. Used by the location search box.
+exports.localities = async () => {
+  const rows = await Property.aggregate([
+    { $group: {
+        _id: { locality: "$location.locality", city: "$location.city" },
+        state: { $first: "$location.state" },
+        lat: { $avg: "$location.latitude" },
+        lng: { $avg: "$location.longitude" },
+        count: { $sum: 1 },
+    } },
+    { $sort: { count: -1 } },
+  ]);
+  return rows.map((r) => ({ locality: r._id.locality, city: r._id.city, state: r.state, lat: r.lat, lng: r.lng, count: r.count }));
+};
+
 // Used by search: the cheapest `limit` properties that pass the filter. They are ranked in the app.
 exports.candidates = (filter, limit) => Property.find(filter).select(noId).sort({ price: 1, propertyID: 1 }).limit(limit).lean();
